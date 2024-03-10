@@ -6,7 +6,6 @@ const deleteButton = document.querySelector("#delete-btn");
 const initialHeight = chatInput.scrollHeight;
 let userText=null;
 const API_KEY = prompt("Please enter your API key:");
-// const API_KEY = "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";
 const loadDataFromLocalStorage = () =>{
     const themeColor = localStorage.getItem("theme-color");
     document.body.classList.toggle("light-mode", themeColor==="light_mode");
